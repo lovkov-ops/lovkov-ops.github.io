@@ -529,10 +529,28 @@ footer {
         width: 100%;
         max-width: 300px;
     }
+    .container {
+        padding: 0;
+    }
+
+    .features,
+    .download,
+    .creators,
+    .about {
+        padding: 3rem 1rem;
+    }
 
     .features-grid,
     .creators-grid,
     .about-grid {
         grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        margin-bottom: 0;
+    }
+
+    .section-subtitle {
+        margin-bottom: 2rem;
     }
 }
