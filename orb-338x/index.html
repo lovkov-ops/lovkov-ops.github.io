@@ -353,10 +353,7 @@
             });
 
             navLinks.forEach(link => {
-                link.style.color = 'var(--text-light)';
-                if (link.getAttribute('href').slice(1) === current) {
-                    link.style.color = 'var(--accent)';
-                }
+                link.classList.toggle('active', link.getAttribute('href').slice(1) === current);
             });
         });
     </script>
