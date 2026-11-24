@@ -296,6 +296,7 @@ color: var(--text-light);
 
 .download-box .btn {
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 /* Creators Section */
