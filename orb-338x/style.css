@@ -165,7 +165,7 @@ a:not(.btn):hover {
 
 .hero-content p {
     font-size: 1.5rem;
-    color: var(--text-muted);
+    color: var(--text-light);
     margin-bottom: 2rem;
     animation: fadeInUp 0.8s ease 0.2s both;
 }
