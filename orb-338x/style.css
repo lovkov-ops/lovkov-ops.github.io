@@ -337,6 +337,23 @@ color: var(--text-light);
     margin-bottom: 1rem;
 }
 
+.macOS-info {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.macOS-info p {
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.macOS-info pre {
+    background-color: var(--card-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
 /* Creators Section */
 .creators {
     padding: 6rem 2rem;
