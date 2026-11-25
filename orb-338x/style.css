@@ -253,13 +253,10 @@ color: var(--text-light);
     background-color: var(--card-bg);
     padding: 2rem;
     border-radius: 12px;
-    border: 2px solid var(--border);
     transition: all 0.3s ease;
-    cursor: pointer;
 }
 
 .feature-card:hover {
-    border-color: var(--accent);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -312,7 +309,13 @@ color: var(--text-light);
     background-color: var(--card-bg);
     padding: 2rem;
     border-radius: 12px;
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
+    transition: all 0.3s ease;
+}
+
+.download-box:hover {
+    border-color: var(--accent);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .download-box h3 {
@@ -369,13 +372,11 @@ color: var(--text-light);
     background-color: var(--card-bg);
     padding: 1rem;
     border-radius: 12px;
-    border: 2px solid var(--border);
     text-align: center;
     transition: all 0.3s ease;
 }
 
 .creator-card:hover {
-    border-color: var(--accent);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -427,6 +428,10 @@ color: var(--text-light);
     padding: 2rem;
     border-radius: 12px;
     border: 1px solid var(--border);
+}
+
+.about-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .about-card h3 {
