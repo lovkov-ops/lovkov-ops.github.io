@@ -223,6 +223,19 @@ color: var(--text-light);
     color: #F2C531;
 }
 
+/* Cards */
+
+.card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
 /* Features Section */
 .features {
     padding: 6rem 2rem;
@@ -247,17 +260,6 @@ color: var(--text-light);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-}
-
-.feature-card {
-    background-color: var(--card-bg);
-    padding: 2rem;
-    border-radius: 12px;
-    transition: all 0.3s ease;
-}
-
-.feature-card:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .feature-image {
@@ -306,16 +308,11 @@ color: var(--text-light);
 }
 
 .download-box {
-    background-color: var(--card-bg);
-    padding: 2rem;
-    border-radius: 12px;
     border: 2px solid var(--border);
-    transition: all 0.3s ease;
 }
 
 .download-box:hover {
     border-color: var(--accent);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .download-box h3 {
@@ -369,15 +366,8 @@ color: var(--text-light);
 }
 
 .creator-card {
-    background-color: var(--card-bg);
-    padding: 1rem;
-    border-radius: 12px;
+    padding: 2rem 1rem;
     text-align: center;
-    transition: all 0.3s ease;
-}
-
-.creator-card:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .creator-avatar {
@@ -421,17 +411,6 @@ color: var(--text-light);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-}
-
-.about-card {
-    background-color: var(--card-bg);
-    padding: 2rem;
-    border-radius: 12px;
-    border: 1px solid var(--border);
-}
-
-.about-card:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .about-card h3 {
