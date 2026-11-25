@@ -348,7 +348,7 @@ color: var(--text-light);
 }
 
 .macOS-info pre {
-    background-color: var(--card-bg);
+    background-color: var(--bg-dark);
     padding: 1rem;
     border-radius: 8px;
     overflow-x: auto;
