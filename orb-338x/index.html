@@ -38,6 +38,12 @@
         }
         }
     </script>
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5LXBDZLC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    </script>
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -190,22 +196,22 @@
                     <div class="download-box">
                         <h3>macOS</h3>
                         <p>For Apple Silicon and Intel.</p>
-                        <a href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-macOS-AppleSilicon.dmg" class="btn btn-primary"><img src="img/macos-icon.svg" alt="macOS Icon">Apple Silicon</a>
-                        <a href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-macOS-Intel.dmg" class="btn btn-primary"><img src="img/macos-icon.svg" alt="macOS Icon">Intel</a>
+                        <a id="btn-mac-arm" href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-macOS-AppleSilicon.dmg" class="btn btn-primary"><img src="img/macos-icon.svg" alt="macOS Icon">Apple Silicon</a>
+                        <a id="btn-mac-intel" href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-macOS-Intel.dmg" class="btn btn-primary"><img src="img/macos-icon.svg" alt="macOS Icon">Intel</a>
                     </div>
 
                     <div class="download-box">
                         <h3>Windows</h3>
                         <p>Full-featured Windows support.</p>
-                        <a href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-Windows-x64.exe" class="btn btn-primary"><img src="img/windows-icon.svg" alt="Windows Icon">x64</a>
-                        <a href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-Windows-ARM64.exe" class="btn btn-primary"><img src="img/windows-icon.svg" alt="Windows Icon">Arm</a>
+                        <a id="btn-win-x64" href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-Windows-x64.exe" class="btn btn-primary"><img src="img/windows-icon.svg" alt="Windows Icon">x64</a>
+                        <a id="btn-win-arm" href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-install-Windows-ARM64.exe" class="btn btn-primary"><img src="img/windows-icon.svg" alt="Windows Icon">Arm</a>
                     </div>
 
                     <div class="download-box">
                         <h3>Linux</h3>
                         <p>For all common distributions.</p>
-                        <a href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-Linux-x86_64.AppImage" class="btn btn-primary"><img src="img/linux-icon.svg" alt="Linux Icon">x64</a>
-                        <a href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-Linux-ARM64.AppImage" class="btn btn-primary"><img src="img/linux-icon.svg" alt="Linux Icon">Arm</a>
+                        <a id="btn-linux-x64" href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-Linux-x86_64.AppImage" class="btn btn-primary"><img src="img/linux-icon.svg" alt="Linux Icon">x64</a>
+                        <a id="btn-linux-arm" href="https://github.com/lovkov-ops/ORB-338X/releases/latest/download/ORB-338X-Linux-ARM64.AppImage" class="btn btn-primary"><img src="img/linux-icon.svg" alt="Linux Icon">Arm</a>
                     </div>
                 </div>
 
